@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font:12px arial;
+}
+a{
+    font-weight: 700;
+    font-size: 13px;
+    color:#333;
+}
+.title{
+    position: absolute;
+    width: 575px;
+    right: 0;
+    margin: 19px 10px 5px;
+}
+.title a{
+    margin-left: 20px;
+}
+#Hot{
+    color: red;
+}
+#Hot::before{
+    content: ' ';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: #F23F40;
+    border-radius: 50%;
+    top:-2px;
+    left:72px;
+}
+.left-move{
+    text-decoration: unset;
+    color:#fff;
+    padding: 4px 4px 8px;
+    /* margin:0 24px 0 12px; */
+    background-color: #3388ff;
+}
+#baidulogo{
+    padding-top: 200px;
+    text-align: center;
+}
+.s_ipt{
+    width: 540px;
+    height: 34px;
+}
+.hit{
+    display: block;
+    text-align: 38px;
+    text-align: center;
+}
+
+.hit input[type="button"]{
+    border: 0;
+    background-color:#3388ff;
+    width: 100px;
+    height: 39px;
+}
+.hit input[type="text"]{
+    margin: 38px auto;
+
+}
